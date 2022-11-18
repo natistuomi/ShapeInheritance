@@ -1,6 +1,6 @@
 public class Test {
     public static void main(String[] args){
-        Rectangle a = new Rectangle(2,3);
-        System.out.println(a.getCircumference() + " , " + a.getArea());
+        Rhomb a = new Rhomb(2, 70);
+        System.out.println(a.getCircumference() + " , " + a.getArea() + " , " + a.getAngleAlpha() + " , " + a.getAngleBeta());
     }
 }
